@@ -1,5 +1,6 @@
 ﻿# Prime Engine Deferred Rendering Pipeline
-Added Deferred Rendering pipeline to the proprietary Prime Engine.
+- Implemented support for Deferred Rendering pipeline in the proprietary Prime Engine as a part of the CSCI 522 course, Milestone 1.
+- Utilized RenderDoc for graphics debugging and profiling.
 
 ## Demo (Click on the image)
 [![Deferred Rendering Demo Video](https://github.com/pratik-dhende/Prime-Engine-Deferred-Renderer/assets/55596801/7dace475-e97f-4c33-8203-5f35e91bc7ed)](https://drive.google.com/file/d/1lVPXfo9_IuJE9VypTJdOhNSaJ9uwIYwj/view?usp=sharing)
@@ -51,3 +52,7 @@ Added Deferred Rendering pipeline to the proprietary Prime Engine.
 	
 6. The final output of the Forward rendering pass contains all the geometries rendered with proper lighting.
 7. This output is then further passed on for post processing after which the scene is finally shown.
+
+## TODO
+1. Optimize the memory usage by generating world space position through depth buffer.
+2. Use tiling to improve performance.
