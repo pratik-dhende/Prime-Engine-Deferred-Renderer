@@ -1,11 +1,12 @@
 ﻿# Prime Engine Deferred Rendering Pipeline
 Added Deferred Rendering pipeline to the proprietary Prime Engine.
 
-## Demo
-Demo
+## Demo (Click on the image)
+[![Deferred Rendering Demo Video](https://github.com/pratik-dhende/Prime-Engine-Deferred-Renderer/assets/55596801/7dace475-e97f-4c33-8203-5f35e91bc7ed)](https://drive.google.com/file/d/1lVPXfo9_IuJE9VypTJdOhNSaJ9uwIYwj/view?usp=sharing)
 
 ## Design diagram
-Design diagram
+![DeferredRenderingPipeline drawio (5)](https://github.com/pratik-dhende/Prime-Engine-Deferred-Renderer/assets/55596801/e13134de-8c7e-4b8e-8ce1-adc3d2dfc9ba)
+
 
 ## Implementation Approach
 1.  Created a `DeferredRendering.fx` technique in `EffectManager::loadDefaultEffects` which uses
